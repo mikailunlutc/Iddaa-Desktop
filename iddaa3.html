@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.iddaa.com.tr</title>
+    <link rel="stylesheet" href="iddaa.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-high">
+    <div class="highLeft">
+    <div class="dropdown" onclick="openForm()">
+    <div class="dropdown-button dropdown-button1"></div>
+    <div class="dropdown-button"></div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-high">
+               <div class="close-unclisive" onclick="closeForm()">
+                    <div class="close closeLeft"></div>
+                    <div class="close closeRight"></div>
+               </div>
+               <ul>
+                 <li class="match-setting"><a class="match-settingLink">Canlı Bahisler</a><i class="fas fa-chevron-down match-settingIcon" onclick="openBlk()"></i></li>
+                 <div class="bulletinDropdown-unclisive">
+                    <li class="bulletinDropdown-options"><i class="fas fa-futbol"></i><a class="bulletinDropdown-optionsLink">Futbol</a></li>
+                    <li class="bulletinDropdown-options"><i class="fas fa-basketball-ball"></i><a class="bulletinDropdown-optionsLink">Basketbol</a></li>
+                    <li class="bulletinDropdown-options"><i class="fas fa-volleyball-ball"></i><a class="bulletinDropdown-optionsLink">Voleybol</a></li>
+                    <li class="bulletinDropdown-options" style="border: none;"><i class="fas fa-baseball-ball"></i><a class="bulletinDropdown-optionsLink">Tenis</a></li>
+                 </div>
+                 <li class="match-setting"><a class="match-settingLink">Canlı Sonuçlar</a></li>
+                 <li class="match-setting"><a class="match-settingLink">Bülten</a><i class="fas fa-chevron-down match-settingIcon"></i></li>
+                 <li class="match-setting"><a class="match-settingLink">Maç Sonuçlar</a></li>
+               </ul> 
+            </div>
+            <div class="match-settingsMenu">
+               <img class="match-settingsMenu-İcon" src="img/Subtraction_8.png" alt="">
+               <h1 class="match-settingsMenu-title">Genel Ayarlar</h1>
+            </div>
+        </div>
+    </div>
+    </div>
+    <h1 class="live-bets-text">Canlı Bahisler</h1>
+    </div>
+    <div class="bet-link">
+        <img src="img/Union_3.png" alt="">
+    </div>
+    <div class="highRight">
+        <div class="late-page">
+            <div class="late-page-start-unclisive">
+              <div class="late-page-start">
+                <div class="late-page-start-Icon" href=""></div>
+                <div class="late-page-start-Icon" href=""></div>
+              </div>
+            </div>
+            <div class="arrow-uncliseve">
+            <i class="fas fa-chevron-left arrow-white-left"></i>
+            <p class="arrow-white-text">Sayfa 1/2</p>
+            <i class="fas fa-chevron-right arrow-white-right"></i>
+            </div>
+        </div>
+        <div class="optionsIcons">
+        <div class="watch">19:30</div>
+        <div class="settings"><img src="img/Subtraction_8.png" alt=""></div>
+        <div class="fullScreen" onclick="fullscreen();">
+            <div style="display: flex;">
+                <div class="screenTopLeft screenBorder"></div>
+                <div class="screenTopRight screenBorder"></div>
+            </div>
+            <div class="screenMiddele"></div>
+            <div style="display:flex; margin-top:-4px;">
+                <div class="screenBottomLeft screenBorder"></div>
+                <div class="screenBottomRight screenBorder"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </header>
+    <main class="main-screen">
+    <header class="topScore">
+            <div class="topScoreLeft">
+                 <div class="icon-banner">MBS</div>
+                 <div class="icon-banners">
+                    <img src="img/iconfutbol@2x.png" alt="">
+                 </div>
+                 <h1 class="ScoreHead ScoreHeadTBFutbooll">Futbol</h1>
+                 <div class="ScoreTests ron3">
+                    <p>İY</p>
+                <div class="scoreTestFlex">
+                    <p class="score-title-green">Skor</p>
+                    <p>Dak.</p>
+                </div>
+                 </div>
+            </div>
+            <div class="topScoreRight">
+                    <div class="Score-titles cow3">
+                        <h2 class="Score-title">Maç Sonucu</h2>
+                        <div class="score-flex score-flex-around">
+                <p>1</p>
+                <p>0</p>
+                <p>2</p>
+                        </div>
+                    </div> 
+                    <div class="Score-titles cow3">
+                        <h2 class="Score-title">Sıradaki Gol</h2>
+                        <div class="score-flex score-flex-around">
+                <p>1</p>
+                <p>0</p>
+                <p>2</p>    
+                        </div>
+                    </div> 
+                    <div class="Score-titles cow3">
+                        <h2 class="Score-title">İlk Yarı Sonucu</h2>
+                        <div class="score-flex score-flex-around">
+                <p>1</p>
+                <p>0</p>
+                <p>2</p>    
+                        </div>
+                    </div> 
+                    <div class="Score-titles cow3">
+                        <h2 class="Score-title">İY Toplam Gol</h2>
+                        <div class="score-flex score-flex-evenly">
+                <p>Alt</p>
+                <p class="Scorelimit">Limit</p>
+                <p>Üst</p>    
+                        </div>
+                    </div>  
+                    <div class="Score-titles cow3">
+                        <h2 class="Score-title">MS Toplam Gol</h2>
+                        <div class="score-flex score-flex-evenly">
+                <p>Alt</p>
+                <p class="Scorelimit">Limit</p>
+                <p>Üst</p>    
+                        </div>
+                    </div>  
+                    <div class="Score-titles cow3">
+                        <h2 class="Score-title">Maçın Kalanı</h2>
+                        <div class="score-flex score-flex-around">
+                <p>1</p>
+                <p>0</p>
+                <p>2</p>    
+                        </div>
+                    </div>  
+            </div>
+    </header>
+    <div class="bottomScore">
+        <div class="bottomLeft">    
+            <div class="match-tags">
+                <div class="macth-tagNumber macth-tagNumber-Red">1</div>
+                <div class="macth-tagImeç">
+            <img src="img/Path_2559.png" alt="">
+            <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                </div>
+            </div>
+            <p class="macth-names macth-namesTBFutbool">BÜYÜKÇEK. - ANADOLU E.</p>
+            <div class="match-titleResult ron3 match-titleResultTB">
+                <p>2-1</p>
+                <p>2-1</p>
+                <p>35'</p>
+            </div>
+        </div>
+        <div class="bottomRight">
+                    <div class="macth-flex cow3">
+            <p>1,55</p>
+            <p class="contMiddle">1,75</p>
+            <p>1,50</p>
+                    </div>  
+                    <div class="macth-flex cow3">
+            <p>1,55</p>
+            <p class="contMiddle">3,43</p>
+            <p>2,45</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,95</p>
+            <p class="contMiddle">2,15</p>
+            <p>3,00</p>
+                    </div>
+                    <div class="macth-flex cow3">
+            <p>1,86</p>
+            <p class="match-rate">145,5</p>
+            <p>1,20</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,57</p>
+            <p class="match-rate">225,5</p>
+            <p>2,45</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,45</p>
+            <p class="contMiddle">1,25</p>
+            <p>2,56</p>
+                    </div>
+        </div>
+    </div>
+    <div class="bottomScore">
+        <div class="bottomLeft">    
+            <div class="match-tags">
+                <div class="macth-tagNumber macth-tagNumber-Red">1</div>
+                <div class="macth-tagImeç">
+            <img src="img/Path_2559.png" alt="">
+            <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                </div>
+            </div>
+            <p class="macth-names macth-namesTBFutbool">BÜYÜKÇEK. - ANADOLU E.</p>
+            <div class="match-titleResult ron3 match-titleResultTB">
+                <p>2-1</p>
+                <p>2-1</p>
+                <p>35'</p>
+            </div>
+        </div>
+        <div class="bottomRight">
+                    <div class="macth-flex cow3">
+            <p>1,55</p>
+            <p class="contMiddle">1,75</p>
+            <p>1,50</p>
+                    </div>  
+                    <div class="macth-flex cow3">
+            <p>1,55</p>
+            <p class="contMiddle">3,43</p>
+            <p>2,45</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,95</p>
+            <p class="contMiddle">2,15</p>
+            <p>3,00</p>
+                    </div>
+                    <div class="macth-flex cow3">
+            <p>1,86</p>
+            <p class="match-rate">145,5</p>
+            <p>1,20</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,57</p>
+            <p class="match-rate">225,5</p>
+            <p>2,45</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,45</p>
+            <p class="contMiddle">1,25</p>
+            <p>2,56</p>
+                    </div>
+        </div>
+    </div>
+    <div class="bottomScore">
+        <div class="bottomLeft">    
+            <div class="match-tags">
+                <div class="macth-tagNumber macth-tagNumber-Red">1</div>
+                <div class="macth-tagImeç">
+            <img src="img/Path_2559.png" alt="">
+            <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                </div>
+            </div>
+            <p class="macth-names macth-namesTBFutbool">BÜYÜKÇEK. - ANADOLU E.</p>
+            <div class="match-titleResult ron3 match-titleResultTB">
+                <p>2-1</p>
+                <p>2-1</p>
+                <p>35'</p>
+            </div>
+        </div>
+        <div class="bottomRight">
+                    <div class="macth-flex cow3">
+            <p>1,55</p>
+            <p class="contMiddle">1,75</p>
+            <p>1,50</p>
+                    </div>  
+                    <div class="macth-flex cow3">
+            <p>1,55</p>
+            <p class="contMiddle">3,43</p>
+            <p>2,45</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,95</p>
+            <p class="contMiddle">2,15</p>
+            <p>3,00</p>
+                    </div>
+                    <div class="macth-flex cow3">
+            <p>1,86</p>
+            <p class="match-rate">145,5</p>
+            <p>1,20</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,57</p>
+            <p class="match-rate">225,5</p>
+            <p>2,45</p>
+                    </div> 
+                    <div class="macth-flex cow3">
+            <p>1,45</p>
+            <p class="contMiddle">1,25</p>
+            <p>2,56</p>
+                    </div>
+        </div>
+    </div>
+    </main>
+    <main class="main-screen">
+        <header class="topScore">
+                <div class="topScoreLeft">
+                     <div class="icon-banner">MBS</div>
+                     <div class="icon-bannersBasketbol"><img src="img/Path.png" alt=""></div>
+                     <h1 class="ScoreHead">Basketbol</h1>
+                     <div class="ScoreTests ron4">
+                        <p class="score-title-green score-titleWidth">Per.</p>
+                        <div>
+                <p class="score-title-whiteBottom">Mev.</p>
+                <p>Skor.</p>
+                        </div>
+                        <div class="score-title-green">
+                <p class="score-title-whiteBottom">Top.</p>
+                <p>Skor</p>
+                        </div>
+                        <p class="score-titleWidth">Dak.</p>
+                     </div>
+                </div>
+                <div class="topScoreRight">
+                        <div class="Score-titles cow2">
+                            <h2 class="Score-title">Maç Sonucu</h2>
+                            <div class="score-flex score-flex-around">
+                    <p>1</p>
+                    <p>2</p>
+                            </div>
+                        </div>
+                        <div class="Score-titles cow3">
+                            <h2 class="Score-title">İlk Çeyrek Sonucu</h2>
+                            <div class="score-flex score-flex-around">
+                    <p>1</p>
+                    <p>0</p>
+                    <p>2</p>    
+                            </div>
+                        </div>
+                        <div class="Score-titles cow3">
+                            <h2 class="Score-title">İlk Yarı Sonucu</h2>
+                            <div class="score-flex score-flex-around">
+                    <p>1</p>
+                    <p>0</p>
+                    <p>2</p>    
+                            </div>
+                        </div>
+                        <div class="Score-titles cow3">
+                            <h2 class="Score-title">Toplam Sayı</h2>
+                            <div class="score-flex score-flex-around">
+                    <p>Alt</p>
+                    <p class="Scorelimit">Limit</p>
+                    <p>Üst</p>    
+                            </div>
+                        </div>
+                        <div class="Score-titles cow3">
+                            <h2 class="Score-title">Ev Sah. Topl. Sayı</h2>
+                            <div class="score-flex score-flex-around">
+                    <p>Alt</p>
+                    <p class="Scorelimit">Limit</p>
+                    <p>Üst</p>    
+                            </div>
+                        </div>
+                        <div class="Score-titles cow3">
+                            <h2 class="Score-title">Depl. Topl. Sayı</h2>
+                            <div class="score-flex score-flex-around">
+                    <p>Alt</p>
+                    <p class="Scorelimit">Limit</p>
+                    <p>Üst</p>    
+                            </div>
+                        </div>
+                </div>
+        </header>
+        <div class="bottomScore">
+            <div class="bottomLeft">    
+                <div class="match-tags">
+                    <div class="macth-tagNumber macth-tagNumber-Green">1</div>
+                    <div class="macth-tagImeç">
+                <img src="img/Path_2559.png" alt="">
+                <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                    </div>
+                </div>
+                <p class="macth-names">BÜYÜKÇEK. - ANADOLU E.</p>
+                <div class="match-titleResult ron4">
+                    <p>4Ç</p>
+                    <p>22-28</p>
+                    <p>78-97</p>
+                    <p>5:51</p>
+                </div>
+            </div>
+            <div class="bottomRight">
+                        <div class="macth-flex cow2">
+                <p>1,75</p>
+                <p>1,50</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,55</p>
+                <p>3,43</p>
+                <p>2,45</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,95</p>
+                <p>2,15</p>
+                <p>3,00</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,86</p>
+                <p class="match-rate">145,5</p>
+                <p>1,20</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,57</p>
+                <p class="match-rate">225,5</p>
+                <p>2,45</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,45</p>
+                <p class="match-rate">92,5</p>
+                <p>2,56</p>
+                        </div>
+            </div>
+        </div>
+        <div class="bottomScore">
+            <div class="bottomLeft">    
+                <div class="match-tags">
+                    <div class="macth-tagNumber macth-tagNumber-Red">1</div>
+                    <div class="macth-tagImeç">
+                <img src="img/Path_2559.png" alt="">
+                <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                    </div>
+                </div>
+                <p class="macth-names">BÜYÜKÇEK. - ANADOLU E.</p>
+                <div class="match-titleResult ron4">
+                    <p>4Ç</p>
+                    <p>22-28</p>
+                    <p>78-97</p>
+                    <p>5:51</p>
+                </div>
+            </div>
+            <div class="bottomRight">
+                        <div class="macth-flex cow2">
+                <p>1,75</p>
+                <p>1,50</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,55</p>
+                <p>3,43</p>
+                <p>2,45</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,95</p>
+                <p>2,15</p>
+                <p>3,00</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,86</p>
+                <p class="match-rate">145,5</p>
+                <p>1,20</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,57</p>
+                <p class="match-rate">225,5</p>
+                <p>2,45</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,45</p>
+                <p class="match-rate">92,5</p>
+                <p>2,56</p>
+                        </div>
+            </div>
+        </div>
+        <div class="bottomScore">
+            <div class="bottomLeft">    
+                <div class="match-tags">
+                    <div class="macth-tagNumber macth-tagNumber-Blue">1</div>
+                    <div class="macth-tagImeç">
+                <img src="img/Path_2559.png" alt="">
+                <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                    </div>
+                </div>
+                <p class="macth-names">BÜYÜKÇEK. - ANADOLU E.</p>
+                <div class="match-titleResult ron4">
+                    <p>4Ç</p>
+                    <p>22-28</p>
+                    <p>78-97</p>
+                    <p>5:51</p>
+                </div>
+            </div>
+            <div class="bottomRight">
+                        <div class="macth-flex cow2">
+                <p>1,75</p>
+                <p>1,50</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,55</p>
+                <p>3,43</p>
+                <p>2,45</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,95</p>
+                <p>2,15</p>
+                <p>3,00</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,86</p>
+                <p class="match-rate">145,5</p>
+                <p>1,20</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,57</p>
+                <p class="match-rate">225,5</p>
+                <p>2,45</p>
+                        </div> 
+                        <div class="macth-flex cow3">
+                <p>1,45</p>
+                <p class="match-rate">92,5</p>
+                <p>2,56</p>
+                        </div>
+            </div>
+        </div>
+    </main>
+    <main class="main-screen main-screenBack">
+            <header class="topScore">
+                    <div class="topScoreLeft">
+                         <div class="icon-banner">MBS</div>
+                         <div class="icon-banners">
+                            <img src="img/icontenis@2x.png" alt="">
+                         </div>
+                         <h1 class="ScoreHead ScoreHeadTennis">Tenis</h1>
+                         <div class="ScoreTests ScoreTestsTennis">
+                            <p class="score-title-green score-titleWidth">Skor</p>
+                            <p class="score-titleWidth score-titleWidth-Margin">Setler</p>
+                            <div class="score-title-green">
+                            <p>Mev.</p>
+                            <p>Oyun</p>
+                        </div>
+                         </div>
+                    </div>
+                    <div class="topScoreRight">
+                            <div class="Score-titles cow2">
+                                <h2 class="Score-title">Maç Sonucu</h2>
+                                <div class="score-flex score-flex-around">
+                        <p>1</p>
+                        <p>2</p>
+                                </div>
+                            </div> 
+                            <div class="Score-titles cow2">
+                                <h2 class="Score-title">Set Sonucu</h2>
+                                <div class="score-flex score-flex-around">
+                        <p>1</p>
+                        <p>2</p>    
+                                </div>
+                            </div> 
+                            <div class="Score-titles cow4">
+                                <h2 class="Score-title">Toplam Set Sayısı</h2>
+                                <div class="score-flex score-flex-around">
+                        <p>2</p>
+                        <p>3</p>
+                        <p>4</p>  
+                        <p>5</p>
+                                </div>
+                            </div> 
+                            <div class="Score-titles cow3">
+                                <h2 class="Score-title">Toplam Oyun Sayısı</h2>
+                                <div class="score-flex score-flex-evenly">
+                        <p>Alt</p>
+                        <p class="Scorelimit">Limit</p>
+                        <p>Üst</p>    
+                                </div>
+                            </div> 
+                            <div class="Score-titles cow3">
+                                <h2 class="Score-title">Oyuncu1 Topl. Oyun</h2>
+                                <div class="score-flex score-flex-evenly">
+                        <p>Alt</p>
+                        <p class="Scorelimit">Limit</p>
+                        <p>Üst</p>    
+                                </div>
+                            </div> 
+                            <div class="Score-titles cow3">
+                                <h2 class="Score-title">Oyuncu2 Topl. Oyun</h2>
+                                <div class="score-flex score-flex-evenly">
+                                    <p>Alt</p>
+                                    <p class="Scorelimit">Limit</p>
+                                    <p>Üst</p>       
+                                </div>
+                            </div>
+                    </div>
+            </header>
+            <div class="bottomScore">
+                <div class="bottomLeft">
+                    <div class="match-tags">
+                        <div class="macth-tagNumber macth-tagNumber-Red">1</div>
+                        <div class="macth-tagImeç">
+                    <img src="img/Path_2559.png" alt="">
+                    <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                        </div>
+                    </div>
+                    <p class="macth-names macth-namesTNTennis">BÜYÜKÇEK. - ANADOLU E.</p>
+                    <div class="match-titleResult match-titleResultTNTennis">
+                        <p>2-1</p>
+                <div class="SetisNumber">
+                        <div class="ResultTextFlex">
+                            <p class="setisGrey">4</p>
+                            <p class="SetisYellow">6</p>
+                            <p class="SetisYellow">6</p>
+                            <p class="SetisYellow">6</p>
+                            <p>0</p>
+                        </div>
+                        <div class="ResultTextFlex">
+                            <p class="SetisYellow">6</p>
+                            <p class="setisGrey">3</p>
+                            <p class="setisGrey">4</p>
+                            <p class="setisGrey">2</p>
+                            <p>4</p>
+                        </div>
+                </div>
+                <div>
+                        <p class="setisBlockRight">0</p>
+                        <p>30</p>
+                </div>
+                </div>
+                </div>
+                <div class="bottomRight">
+                            <div class="macth-flex cow2">
+                    <p>1,55</p>
+                    <p>1,50</p>
+                            </div> 
+                            <div class="macth-flex cow2">
+                    <p>1,55</p>
+                    <p>2,45</p>
+                            </div> 
+                            <div class="macth-flex cow4">
+                    <p>2,45</p>
+                    <p class="macth-flexTNTexts">1,95</p>
+                    <p class="macth-flexTNTexts2">2,15</p>
+                    <p>3,00</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                    <p>1,86</p>
+                    <p class="match-rate">0,5</p>
+                    <p>1,75</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                                <p>1,86</p>
+                                <p class="match-rate">0,5</p>
+                                <p>1,75</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                                <p>1,86</p>
+                                <p class="match-rate">0,5</p>
+                                <p>1,75</p>
+                            </div>
+                </div>
+            </div>
+            <div class="bottomScore">
+                <div class="bottomLeft">
+                    <div class="match-tags">
+                        <div class="macth-tagNumber macth-tagNumber-Red">1</div>
+                        <div class="macth-tagImeç">
+                    <img src="img/Path_2559.png" alt="">
+                    <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                        </div>
+                    </div>
+                    <p class="macth-names macth-namesTNTennis">BÜYÜKÇEK. - ANADOLU E.</p>
+                    <div class="match-titleResult match-titleResultTNTennis">
+                        <p>2-1</p>
+                <div class="SetisNumber">
+                        <div class="ResultTextFlex">
+                            <p class="setisGrey">4</p>
+                            <p class="SetisYellow">6</p>
+                            <p class="SetisYellow">6</p>
+                            <p class="SetisYellow">6</p>
+                            <p>0</p>
+                        </div>
+                        <div class="ResultTextFlex">
+                            <p class="SetisYellow">6</p>
+                            <p class="setisGrey">3</p>
+                            <p class="setisGrey">4</p>
+                            <p class="setisGrey">2</p>
+                            <p>4</p>
+                        </div>
+                </div>
+                <div>
+                        <p class="setisBlockRight">0</p>
+                        <p>30</p>
+                </div>
+                </div>
+                </div>
+                <div class="bottomRight">
+                            <div class="macth-flex cow2">
+                    <p>1,55</p>
+                    <p>1,50</p>
+                            </div> 
+                            <div class="macth-flex cow2">
+                    <p>1,55</p>
+                    <p>2,45</p>
+                            </div> 
+                            <div class="macth-flex cow4">
+                    <p>2,45</p>
+                    <p class="macth-flexTNTexts">1,95</p>
+                    <p class="macth-flexTNTexts2">2,15</p>
+                    <p>3,00</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                    <p>1,86</p>
+                    <p class="match-rate">0,5</p>
+                    <p>1,75</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                                <p>1,86</p>
+                                <p class="match-rate">0,5</p>
+                                <p>1,75</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                                <p>1,86</p>
+                                <p class="match-rate">0,5</p>
+                                <p>1,75</p>
+                            </div>
+                </div>
+            </div>
+            <div class="bottomScore">
+                <div class="bottomLeft">
+                    <div class="match-tags">
+                        <div class="macth-tagNumber macth-tagNumber-Red">1</div>
+                        <div class="macth-tagImeç">
+                    <img src="img/Path_2559.png" alt="">
+                    <img class="macth-tagImeç-IMG" src="img/Path_2558.png" alt="">
+                        </div>
+                    </div>
+                    <p class="macth-names macth-namesTNTennis">BÜYÜKÇEK. - ANADOLU E.</p>
+                    <div class="match-titleResult match-titleResultTNTennis">
+                        <p>2-1</p>
+                <div class="SetisNumber">
+                        <div class="ResultTextFlex">
+                            <p class="setisGrey">4</p>
+                            <p class="SetisYellow">6</p>
+                            <p class="SetisYellow">6</p>
+                            <p class="SetisYellow">6</p>
+                            <p>0</p>
+                        </div>
+                        <div class="ResultTextFlex">
+                            <p class="SetisYellow">6</p>
+                            <p class="setisGrey">3</p>
+                            <p class="setisGrey">4</p>
+                            <p class="setisGrey">2</p>
+                            <p>4</p>
+                        </div>
+                </div>
+                <div>
+                        <p class="setisBlockRight">0</p>
+                        <p>30</p>
+                </div>
+                </div>
+                </div>
+                <div class="bottomRight">
+                            <div class="macth-flex cow2">
+                    <p>1,55</p>
+                    <p>1,50</p>
+                            </div> 
+                            <div class="macth-flex cow2">
+                    <p>1,55</p>
+                    <p>2,45</p>
+                            </div> 
+                            <div class="macth-flex cow4">
+                    <p>2,45</p>
+                    <p class="macth-flexTNTexts">1,95</p>
+                    <p class="macth-flexTNTexts2">2,15</p>
+                    <p>3,00</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                    <p>1,86</p>
+                    <p class="match-rate">0,5</p>
+                    <p>1,75</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                                <p>1,86</p>
+                                <p class="match-rate">0,5</p>
+                                <p>1,75</p>
+                            </div> 
+                            <div class="macth-flex cow3">
+                                <p>1,86</p>
+                                <p class="match-rate">0,5</p>
+                                <p>1,75</p>
+                            </div>
+                </div>
+            </div>
+    </main>
+    <script src="iddaa.js"></script>
+</body>
+</html>
